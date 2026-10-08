@@ -1,0 +1,6 @@
+{
+  "name": "Sch Tech Dispatch - Scheduling Team Outlook Email Generator via Airtable",
+  "description": "Scheduling Team Outlook Email Generator via Airtable: Smart field technician schedule manager, automated CSV ingestion, multi-project grouping, and customized Outlook dispatch email generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
