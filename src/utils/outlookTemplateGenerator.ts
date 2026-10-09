@@ -3969,7 +3969,7 @@ export function generateOutlookHtml(
     
     <!-- Greeting -->
     <p style="margin: 0 0 16px 0; font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt; color: #000000; line-height: 1.5;">
-      <u>Hello </u>${escapeHtml(techFirstName)},
+      Hello ${escapeHtml(techFirstName)},
     </p>
 
     ${
@@ -4006,9 +4006,9 @@ export function generateOutlookHtml(
 
     <!-- Links Section -->
     <p style="margin: 0 0 20px 0; font-family: Calibri, 'Segoe UI', Arial, sans-serif; font-size: 11pt; color: #000000; line-height: 1.8;">
-      <u><a href="${photoUploadUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u> - PHOTO UPLOADS<br />
-      <u><a href="${airtableUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u> - SCHEDULE<br />
-      <u><a href="${googleMapsUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u>– GOOGLE MAPS
+      <u><a href="${photoUploadUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u> - <span style="background-color: #00FF00; font-weight: bold; color: #000000; padding: 1px 4px; display: inline;">PHOTO UPLOADS</span><br />
+      <u><a href="${airtableUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u> - <span style="background-color: #00FF00; font-weight: bold; color: #000000; padding: 1px 4px; display: inline;">SCHEDULE</span><br />
+      <u><a href="${googleMapsUrl}" style="color: #004F9F; text-decoration: underline;" target="_blank">Click Here</a></u> – <span style="background-color: #00FF00; font-weight: bold; color: #000000; padding: 1px 4px; display: inline;">GOOGLE MAPS</span>
     </p>
 
     <!-- Days List (Sunday - Saturday) -->
